@@ -1,0 +1,2 @@
+run: 
+	docker run -d -p 80:4200 -v "D:\PROJECTS\Docker_test:/src" -v /node_modules -v test:/src/data --rm --name test bsvpx/docker_test:volume
